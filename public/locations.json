@@ -1,0 +1,123 @@
+{
+    "Max’s Café & Pacieteria": {
+      "address": "967 Ongpin St, Santa Cruz, Manila, 1000 Metro Manila",
+      "type": "Cafe",
+      "rating": 1,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.60159966230888, "lng": 120.98080974437417 }
+    },
+    "Cafe Aquatica": {
+      "address": "619 Norberto Ty St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Cafe",
+      "rating": 4.6,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.600810604776232, "lng": 120.97501617292997 }
+    },
+    "Black Scoop Cafe": {
+      "address": "Muralla St, Intramuros, Manila, 1002 Metro Manila",
+      "type": "Cafe",
+      "rating": 4.8,
+      "url": "",
+      "pwd": true,
+      "location": { "lat": 14.592563051503983, "lng": 120.978717147313 }
+    },
+    "Everyday Cafe & Fastfood": {
+      "address": "668 J Luna St, Bgy 287, Zone 027 Binondo Manila",
+      "type": "Cafe",
+      "rating": 4.0,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.605294956710365, "lng": 120.97059546634816 }
+    },
+    "Mr Bean": {
+      "address": "293 Dela Reina St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Cafe",
+      "rating": 2.0,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.604049096036379, "lng": 120.97347079432136 }
+    },
+    "Chuan Kee Chinese Fast Food": {
+      "address": "650 Ongpin St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Restaurant",
+      "rating": 4.2,
+      "url": "https://chuankee.ubedelivery.com/",
+      "pwd": false,
+      "location": { "lat": 14.60068739372416, "lng": 120.975415355046 }
+    },
+    "Ilang-Ilang Restaurant": {
+      "address": "551 Ilang-Ilang St, Binondo, Manila, Metro Manila",
+      "type": "Restaurant",
+      "rating": 3.8,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.600514142301735, "lng": 120.97153912676421 }
+    },
+    "King Chef Seafood Restaurant": {
+      "address": "2/F Lucky Chinatown Mall, Reina Regente St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Restaurant",
+      "rating": 4.5,
+      "url": "http://www.kingchefph.com/",
+      "pwd": true,
+      "location": { "lat": 14.603358892893327, "lng": 120.97319136746526 }
+    },
+    "Wai Ying Fast Food": {
+      "address": "810 Benavidez St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Restaurant",
+      "rating": 4.3,
+      "url": "https://www.certifiedfoodies.com/2010/12/wai-ying-fast-food-restaurant-binond-manila-review/",
+      "pwd": true,
+      "location": { "lat": 14.602125422552172, "lng": 120.97595120670232 }
+    },
+    "New Po Heng Lumpia House (PUO HING LUMPIA)": {
+      "address": "621, 1006 Carvajal St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Restaurant",
+      "rating": 4.3,
+      "url": "https://www.facebook.com/New-Po-Heng-Lumpia-House-%E6%96%B0%E5%AF%B6%E8%88%88%E7%BE%8E%E9%A3%9F-170321986367225/",
+      "pwd": false,
+      "location": { "lat": 14.599614376339012, "lng": 120.97537868810369 }
+    },
+    "Pinky Shop Online Store": {
+      "address": "1137G Soler St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Store",
+      "rating": 5.0,
+      "url": "http://www.pinkyshop.ph/",
+      "pwd": false,
+      "location": { "lat": 14.604856274828904, "lng": 120.97533828438587 }
+    },
+    "National Book Store": {
+      "address": "293 Dela Reina St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Store",
+      "rating": 4.7,
+      "url": "https://www.nationalbookstore.com/",
+      "pwd": false,
+      "location": { "lat": 14.603753142315231, "lng": 120.9732705537499 }
+    },
+    "City Store·大城小铺": {
+      "address": "888 Alvarado St, Binondo, 1006 Metro Manila",
+      "type": "Store",
+      "rating": 3.0,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.603798335363589, "lng": 120.97445729461035 }
+    },
+    "Mi Store": {
+      "address": "1006 Reina Regente St, Binondo, Manila, 1006 Metro Manila",
+      "type": "Store",
+      "rating": 4.0,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.603798335363589, "lng": 120.97387793748142 }
+    },
+    "Lucky Charm Chinese Drug Store": {
+      "address": "810 Salazar St, Santa Cruz, Manila, 1008 Metro Manila",
+      "type": "Store",
+      "rating": 4.5,
+      "url": "",
+      "pwd": false,
+      "location": { "lat": 14.601514236459103, "lng": 120.97613099318127 }
+    }
+  }
+  

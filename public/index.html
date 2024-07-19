@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- get the required files from 3rd party sources -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <!-- use the font -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Maps Web App</title>
+  
+  <!-- Material Design 3 CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/@material/md@latest/dist/material.min.css">
+  
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shops around Binondo</h1>
+    
+    <!-- Google Maps -->
+    <div id="map"></div>
+
+    <!-- Legend panel for rating colors -->
+    <div id="legend-panel">
+      <h2 id="ratings-legend">Ratings Legend</h2>
+      <div id="legend-colors">
+        <!-- Legend colors will be dynamically inserted here -->
+      </div>
+    </div>
+    
+    <!-- Checkboxes as Bullets -->
+    <div class="checkbox-list">
+      <h2 id="filter-layers">Filter Layers</h2>
+      <div class="mdc-form-field">
+        <div class="mdc-checkbox">
+          <input class="mdc-checkbox__native-control" type="checkbox" id="cafe-checkbox" name="marker-type" value="Cafe">
+          <span class="mdc-checkbox__background">
+            <span class="mdc-checkbox__outer-circle"></span>
+            <span class="mdc-checkbox__inner-circle"></span>
+          </span>
+          <label for="cafe-checkbox" font-size="18px">Cafe </span> </label>
+          <span class="cafe-dot"></span>
+        </div>
+      </div>
+      
+      <div class="mdc-form-field">
+        <div class="mdc-checkbox">
+          <input class="mdc-checkbox__native-control" type="checkbox" id="restaurant-checkbox" name="marker-type" value="Restaurant">
+          <span class="mdc-checkbox__background">
+            <span class="mdc-checkbox__outer-circle"></span>
+            <span class="mdc-checkbox__inner-circle"></span>
+          </span>
+          <label for="restaurant-checkbox" font-size="18px">Restaurant <span class="res-dot"></span> </label>
+        </div>
+      </div>
+      
+      <div class="mdc-form-field">
+        <div class="mdc-checkbox">
+          <input class="mdc-checkbox__native-control" type="checkbox" id="store-checkbox" name="marker-type" value="Store">
+          <span class="mdc-checkbox__background">
+            <span class="mdc-checkbox__outer-circle"></span>
+            <span class="mdc-checkbox__inner-circle"></span>
+          </span>
+          <label for="store-checkbox" font-size="18px">Store <span class="store-dot"></span> </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info panel for displaying marker information -->
+    <div id="info-panel" class="mdc-elevation--z4">
+      <div class="info-header">
+        <h2 id="shop-info">Shop Information</h2>
+        <button id="close-info-panel" class="mdc-icon-button material-icons">close</button>
+      </div>
+      <div id="marker-info"></div>
+    </div>
+  </div>
+  
+  <!-- Material Design 3 JS -->
+  <script src="https://unpkg.com/@material/md@latest/dist/material.min.js"></script>
+  
+  <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+  <script defer src="app.js"></script>
+  
+  <!-- Google Maps API -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=API_KEY&v=weekly&callback=initMap">
+  </script>
+</body>
+</html>
