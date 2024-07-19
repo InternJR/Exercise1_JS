@@ -1,5 +1,3 @@
-//import { MarkerClusterer } from 'https://unpkg.com/@googlemaps/markerclusterer/dist/index.esm.js';
-
 let map;
 let markers = [];
 
